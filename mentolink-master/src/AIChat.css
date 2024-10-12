@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .aiChat-title {
+    color: #333;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+    letter-spacing: 1.2px;
+    transition: color 0.3s ease;
+  }
+  
+  .aiChat-title:hover {
+    color: #4caf50;
+  }
+  
+  .aiChat-textarea {
+    width: 80%;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+    padding: 15px;
+    border: 2px solid #ddd;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    resize: none;
+    background-color: #f4f4f9;
+    transition: border-color 0.3s ease;
+  }
+  
+  .aiChat-textarea:focus {
+    border-color: #4caf50;
+    outline: none;
+    background-color: #fff;
+  }
+  
+  .aiChat-button {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 25px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .aiChat-button:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+  }
+  
+  .aiChat-button:active {
+    background-color: #3e8e41;
+    transform: translateY(1px);
+  }
+  
+  .aiChat-answer {
+    text-align: left;
+    margin-top: 20px;
+    padding: 15px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+  }
+  
+  .aiChat-answer h1, .aiChat-answer h2, .aiChat-answer h3 {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .aiChat-answer ul {
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .aiChat-answer ul li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .aiChat-answer p {
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .aiChat-answer strong {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .aiChat-answer em {
+    font-style: italic;
+    color: #777;
+  }
+  
+  .aiChat-answer code {
+    background-color: #e6e6e6;
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .aiChat-answer:empty::before {
+    content: "No answer yet...";
+    color: #888;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .aiChat-textarea, .aiChat-answer {
+      width: 90%;
+    }
+  
+    .aiChat-button {
+      width: 90%;
+      padding: 10px;
+    }
+  }
+  
