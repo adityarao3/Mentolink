@@ -11,7 +11,7 @@ const AIChat = () => {
     setAnswer("loading...");
     try {
       const response = await axios({
-        url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyBPDum8tcgRCl-xV-ZAslp3mPY-CI17NVM",
+        url: "",
         method: "post",
         data: {
           contents: [
