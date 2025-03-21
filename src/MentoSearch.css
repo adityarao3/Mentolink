@@ -1,0 +1,131 @@
+/* Header.css */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #e0e0e0;
+}
+
+.buttons {
+  display: flex;
+  gap: 1px;
+}
+
+.download,
+.login {
+  padding: 10px 15px;
+  margin-right: 35px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  min-width: 100px;
+}
+
+.download {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.login {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+/* Mentor search container styling */
+.mentor-search-container {
+  flex: 1;
+  margin-left: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.mentor-search {
+  width: 300px;
+}
+
+.mentor-search-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.mentor-suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.mentor-suggestions li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.mentor-suggestions li:hover {
+  background-color: #f0f0f0;
+}
+
+.mentor-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.mentor-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.mentor-name {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.mentor-description {
+  font-size: 12px;
+  color: #666;
+}
+
+.mentor-badge {
+  background-color: #ffd700;
+  padding: 3px 5px;
+  border-radius: 5px;
+  font-size: 10px;
+  margin-top: 2px;
+}

@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .form-booking-form-container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-booking-header h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .form-booking-header p {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .form-booking-date-time {
+    font-size: 14px;
+    margin: 10px 0;
+    color: #444;
+  }
+  
+  .form-booking-form label {
+    display: block;
+    margin: 15px 0 5px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .form-booking-form input[type="text"],
+  .form-booking-form input[type="email"],
+  .form-booking-form input[type="tel"],
+  .form-booking-form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .form-resume-upload {
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  .form-phone-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .form-phone-input select,
+  .form-phone-input input {
+    flex: 1;
+  }
+  
+  .form-booking-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-booking-checkbox input {
+    margin-right: 10px;
+  }
+  
+  .form-price-options {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .form-price-button {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-price-button.form-selected {
+    background-color: #ffeb3b;
+    border-color: #ffeb3b;
+  }
+  
+  .form-popular {
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 5px;
+    border-radius: 3px;
+    margin-left: 5px;
+  }
+  
+  .form-order-summary {
+    margin-bottom: 20px;
+  }
+  
+  .form-order-summary h4 {
+    margin-bottom: 10px;
+  }
+  
+  .form-submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .form-booking-footer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .form-booking-footer p {
+    font-size: 12px;
+    color: #999;
+  }
+  
