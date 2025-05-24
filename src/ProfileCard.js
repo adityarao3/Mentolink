@@ -8,49 +8,49 @@ const profiles = [
   {
     name: 'Aditya Rao',
     description: 'Technology Enthusiast and a Mentor for more than a year',
-    image: 'https://media.licdn.com/dms/image/D4D03AQFpA5Kz4b3VbA/profile-displayphoto-shrink_200_200/0/1683635155071?e=2147483647&v=beta&t=QybjMYYSIvvkM3rr4vigUf1EeILL2KcRWKtCeuNMRKs',
+    image: 'https://randomuser.me/api/portraits/men/1.jpg',
     badges: ['Top 1%', '221 Bookings', 'Top Rated 2023', 'Top Rated Software'],
     skills: ['Technology', 'Mentoring', 'Software Engineering']
   },
   {
     name: 'Aman Singh',
     description: 'Career Coach and Resume Expert',
-    image: 'https://media.licdn.com/dms/image/v2/D4D03AQHjPdnTas6iQA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1699129728197?e=1731542400&v=beta&t=uZYzb0_u-R2k7fVEVDkMiH2jxX-Bx-MsoroQ6ehVvhg',
+    image: 'https://randomuser.me/api/portraits/men/2.jpg',
     badges: ['500+ Bookings', 'Top Rated 2023', 'Resume Guru'],
     skills: ['Technology', 'Mentoring', 'Software Engineering']
   },
   {
     name: 'Amandeep ummat',
     description: 'Expert in UK/EU Relocation & Study Opportunities',
-    image: 'https://media.licdn.com/dms/image/v2/D4D03AQE2iIeuz_2Lxg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1718885426900?e=1731542400&v=beta&t=ib9t9n2y1dUojr1JV3x1utUrlyLQLOLp6Z2YAYJAVgU',
+    image: 'https://randomuser.me/api/portraits/men/3.jpg',
     badges: ['Top Mentor', '1000+ Bookings', 'Relocation Specialist'],
     skills: ['React Development', 'Javascript', 'MernStack']
   },
   {
     name: 'Amanpreet Kaur',
     description: 'Expert in (Data Base management/Operating System)UK/EU Relocation & Study Opportunities',
-    image: 'https://media.licdn.com/dms/image/v2/D5603AQHBUu4qtkhUBg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1725279924037?e=1731542400&v=beta&t=uMgVB0AQWd9iKZTc-Zmirr8TZWy7bJz_6n_gxYXK9-4',
+    image: 'https://randomuser.me/api/portraits/women/1.jpg',
     badges: ['Top Mentor', '1000+ Bookings', 'Relocation Specialist'],
     skills: ['Angular', 'MongoDB', 'Java']
   },
   {
     name: 'Shradha Khapra',
-    description: 'Expert in Web Development(React.js/java script)/Co-founder, Apna College | Ex-Microsoft | Tedx Speaker | Google SPS’20',
-    image: 'https://media.licdn.com/dms/image/v2/D4D03AQHGNAxeyJhZbQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1685972237021?e=1731542400&v=beta&t=-GhZ6UgCWGWa38w_CHUvh9bClz9VeUQaZswJwK_8Pa0',
+    description: 'Expert in Web Development(React.js/java script)/Co-founder, Apna College | Ex-Microsoft | Tedx Speaker | Google SPS\'20',
+    image: 'https://randomuser.me/api/portraits/women/2.jpg',
     badges: ['Top Mentor', '1000+ Bookings', 'Relocation Specialist'],
     skills: ['DSA', 'C++', 'Software Engineering']
   },
   {
     name: 'Love Babbar',
     description: 'Expert: DSA/Founder - CodeHelp | SSB Recommended | TedX Speaker | Ex-Amazon | Ex-Microsoft',
-    image: 'https://media.licdn.com/dms/image/v2/D5603AQEO10ue8NTlBw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1714135658517?e=1731542400&v=beta&t=lLtVogU_B_3xcXCPYgEjd3IEujqp-HJ3toWbLFyCvYs',
+    image: 'https://randomuser.me/api/portraits/men/4.jpg',
     badges: ['Top Mentor', '10000+ Bookings', 'Software Design Specialist'],
     skills: ['HTml', 'Mentoring', 'Software Engineering']
   },
   {
     name: 'Aman Kumar',
     description: 'Expert: in FLAT ,DSA,Software  ',
-    image: 'https://media.licdn.com/dms/image/D5603AQHUMB_4N63w9Q/profile-displayphoto-shrink_200_200/0/1710703441973?e=2147483647&v=beta&t=zNCA9d72m1YzGDh17cyxOg9EgiSOnFJW43TQT5H1PaM',
+    image: 'https://randomuser.me/api/portraits/men/5.jpg',
     badges: ['Top Mentor', '10000000000+ Bookings', 'Software Design Specialist And Gaming']
   }
 ];
@@ -59,7 +59,7 @@ const sessionData = [
   { title: '1:1 Mentoring', duration: '60 mins', type: 'Video Meeting', price: '₹999' },
   { title: 'Move to UK/Europe (Study/Work)', duration: '30 mins', type: 'Video Meeting', price: '₹499' },
   { title: 'Mock interview / Resume Review', duration: '45 mins', type: 'Video Meeting', price: '₹199+' },
-  
+
 ];
 
 const feedbackData = [
@@ -122,7 +122,7 @@ const ProfileCard = ({ profile, sessions, feedbacks }) => {
         <h2>Ratings and feedback</h2>
         <div className="rating-overview">
           <div className="rating-card">
-            <img src="htttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThhom8LYQ9qa9NHJbgRkrn2uJZL1-jilEqMw&s" alt="Rating Icon" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThhom8LYQ9qa9NHJbgRkrn2uJZL1-jilEqMw&s" alt="Rating Icon" />
           </div>
           <div className="rating-score">
             <h3>4.8/5</h3>

@@ -1,177 +1,174 @@
 /* Main Profile Container - Full Screen Width */
 .profile-container {
-    display: flex;
-    gap: 40px; 
-    padding: 30px;
-    background-color: #FFF6EA;
-    width: 100vw; 
-    height: 100vh; 
-    overflow: auto; /* Allowing scroll if content overflows */
-    box-sizing: border-box;
+  display: flex;
+  gap: 40px;
+  padding: 30px;
+  background-color: #fff6ea;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto; /* Allowing scroll if content overflows */
+  box-sizing: border-box;
 }
 
 /* Profile Info Styling */
 .profile-info {
-    background: linear-gradient(180deg, #a8d8ff, #e1f0ff); /* Gradient */
-    padding: 30px;
-    border-radius: 12px;
-    width: 350px; /* Fixed width */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Light shadow */
-    flex-shrink: 0; /* Ensuring profile-info doesn’t shrink */
+  background: linear-gradient(180deg, #a8d8ff, #e1f0ff); /* Gradient */
+  padding: 30px;
+  border-radius: 12px;
+  width: 350px; /* Fixed width */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Light shadow */
+  flex-shrink: 0; /* Ensuring profile-info doesn’t shrink */
 }
 
 /* Profile Header Styling */
 .profile-header {
-    position: relative;
-    text-align: center;
+  position: relative;
+  text-align: center;
 }
 
 .profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover; /* Ensuring image fits within circle */
-   
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover; /* Ensuring image fits within circle */
 }
 
 /* Badge Styling */
 .profile-badge {
-    position: absolute;
-    top: 120px;
-    left: 60%; /* Adjusted for alignment */
-    transform: translateX(-50%);
-    background-color: white;
-    border-radius: 50%;
-    padding: 6px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 120px;
+  left: 60%; /* Adjusted for alignment */
+  transform: translateX(-50%);
+  background-color: white;
+  border-radius: 50%;
+  padding: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .verified-icon {
-    font-size: 24px;
-    color: #1DA1F2;
+  font-size: 24px;
+  color: #1da1f2;
 }
 
 /* Text Styling */
 h2 {
-    margin: 20px 0 10px 0;
-    font-size: 24px;
+  margin: 20px 0 10px 0;
+  font-size: 24px;
 }
 
 .profile-description {
-    font-size: 16px;
-    color: #444;
+  font-size: 16px;
+  color: #444;
 }
 
 .badges {
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
-    margin-top: 15px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 15px;
 }
 
 .badge {
-    background-color: #ffd700;
-    padding: 10px 15px;
-    border-radius: 10px;
-    font-size: 14px;
-    margin-top: 10px;
+  background-color: #ffd700;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 14px;
+  margin-top: 10px;
 }
 
 /* Discover Button */
 .discover-btn {
-    margin-top: 30px;
-    padding: 12px 25px;
-    background-color: black;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 16px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); /* Added shadow */
+  margin-top: 30px;
+  padding: 12px 25px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); /* Added shadow */
 }
 
 /* Session Cards Section - Full Width */
 .session-cards {
-    display: flex;
-    flex-direction: column;
-    gap: 20px; 
-    width: 100%; 
-    overflow: auto; 
-    box-sizing: border-box;
-    padding-right: 30px; 
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  overflow: auto;
+  box-sizing: border-box;
+  padding-right: 30px;
 }
 
 /* Filters Section */
 .filters {
-    display: flex;
-    gap: 15px;
-    margin-bottom: 20px; 
-    justify-content: flex-start;
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  justify-content: flex-start;
 }
 
 .filter-btn {
-    background-color: black;
-    color: white;
-    padding: 10px 25px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 14px;
+  background-color: black;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
 }
 
 /* Card Styling */
 .card {
-    background-color: white;
-    padding: 20px;
-    margin-top: 20px;
-    border-radius: 12px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
-    cursor: pointer; 
-    border: 1px solid rgba(0, 0, 0, 0.05); 
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .card:hover {
-    transform: translateY(-5px); 
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
 }
 
 .card h3 {
-    font-size: 18px;
-    color: #333; 
-    margin: 0;
-    flex: 1;
+  font-size: 18px;
+  color: #333;
+  margin: 0;
+  flex: 1;
 }
 
 .card p {
-    font-size: 14px;
-    color: #666; 
-    margin: 0;
-    flex: 1;
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+  flex: 1;
 }
 
 .price-btn {
-    background-color: #d0eaff;
-    color: #000;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 20px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  background-color: #d0eaff;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .price-btn:hover {
-    background-color: #b0d0f0; 
+  background-color: #b0d0f0;
 }
 
-
-
 .price-btn:hover {
-    background-color: #d4e8ff;
+  background-color: #d4e8ff;
 }
 /* Ratings and Feedback */
 .ratings-feedback {
@@ -181,12 +178,12 @@ h2 {
   border-radius: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .ratings-feedback:hover {
-  transform: translateY(-5px); 
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); 
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .rating-overview {
@@ -210,8 +207,8 @@ h2 {
 .rating-card:hover,
 .rating-score:hover,
 .testimonials:hover {
-  transform: translateY(-5px); 
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); 
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .feedback-cards {
@@ -234,23 +231,23 @@ h2 {
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
 }
 
-button:focus, 
-input:focus, 
+button:focus,
+input:focus,
 textarea:focus {
   outline: none;
 }
-button:focus, 
-input:focus, 
+button:focus,
+input:focus,
 textarea:focus {
-  outline: 2px solid #4caf50; 
+  outline: 2px solid #4caf50;
   border-radius: 5px;
 }
 .rating-card img,
 .rating-score img,
 .testimonials img {
-  max-width: 100%; 
-  height: auto; 
-  object-fit: contain; 
-  display: block; 
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
   margin: 0 auto;
 }
