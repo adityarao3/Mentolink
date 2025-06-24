@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Mentolink/precache-manifest.16cf7aadb151cd2e0bf6840be4008206.js"
+  "/Mentolink/precache-manifest.7661a2c8743da027bd4715f3e735e943.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Mentolink/static/css/main.6071a9be.chunk.css",
-    "main.js": "/Mentolink/static/js/main.46596353.chunk.js",
-    "main.js.map": "/Mentolink/static/js/main.46596353.chunk.js.map",
+    "main.js": "/Mentolink/static/js/main.9438cbe2.chunk.js",
+    "main.js.map": "/Mentolink/static/js/main.9438cbe2.chunk.js.map",
     "runtime-main.js": "/Mentolink/static/js/runtime-main.c4ec335a.js",
     "runtime-main.js.map": "/Mentolink/static/js/runtime-main.c4ec335a.js.map",
-    "static/js/2.a6e093a3.chunk.js": "/Mentolink/static/js/2.a6e093a3.chunk.js",
-    "static/js/2.a6e093a3.chunk.js.map": "/Mentolink/static/js/2.a6e093a3.chunk.js.map",
+    "static/js/2.02d923a9.chunk.js": "/Mentolink/static/js/2.02d923a9.chunk.js",
+    "static/js/2.02d923a9.chunk.js.map": "/Mentolink/static/js/2.02d923a9.chunk.js.map",
     "index.html": "/Mentolink/index.html",
-    "precache-manifest.16cf7aadb151cd2e0bf6840be4008206.js": "/Mentolink/precache-manifest.16cf7aadb151cd2e0bf6840be4008206.js",
+    "precache-manifest.7661a2c8743da027bd4715f3e735e943.js": "/Mentolink/precache-manifest.7661a2c8743da027bd4715f3e735e943.js",
     "service-worker.js": "/Mentolink/service-worker.js",
     "static/css/main.6071a9be.chunk.css.map": "/Mentolink/static/css/main.6071a9be.chunk.css.map",
-    "static/js/2.a6e093a3.chunk.js.LICENSE.txt": "/Mentolink/static/js/2.a6e093a3.chunk.js.LICENSE.txt"
+    "static/js/2.02d923a9.chunk.js.LICENSE.txt": "/Mentolink/static/js/2.02d923a9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c4ec335a.js",
-    "static/js/2.a6e093a3.chunk.js",
+    "static/js/2.02d923a9.chunk.js",
     "static/css/main.6071a9be.chunk.css",
-    "static/js/main.46596353.chunk.js"
+    "static/js/main.9438cbe2.chunk.js"
   ]
 }
